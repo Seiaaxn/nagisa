@@ -1,5 +1,5 @@
 {
-  "name": "hitori",
+  "name": "umi",
   "version": "1.1.8",
   "description": "Bot WhatsApp Using Lib Baileys Multi Device",
   "keywords": [
@@ -8,7 +8,7 @@
     "bot-wa",
     "multi-device"
   ],
-  "author": "Nazedev",
+  "author": "Shin",
   "license": "MIT",
   "homepage": "https://github.com/nazedev/hitori#readme",
   "bugs": {
