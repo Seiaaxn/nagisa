@@ -12,9 +12,9 @@ const __filename = fileURLToPath(import.meta.url);
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] // ['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
+global.owner = ['6285863756942'] // ['628','628'] 2 owner atau lebih
+global.author = 'Shin 🪐'
+global.botname = 'Asanagi Umi'
 global.packname = 'Bot WhatsApp'
 global.timezone = 'Asia/Jakarta' // Ganti pakai command .settimezone
 global.locale = 'en' // Ganti pakai command .setlocale
@@ -28,33 +28,33 @@ global.number_bot = '' // Kalo pake panel bisa masukin nomer di sini, jika belum
 
 global.fake = {
 	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
-	thumbnailUrl: 'https://telegra.ph/file/fe4843a1261fc414542c4.jpg',
+	thumbnailUrl: 'https://files.catbox.moe/oxwle5.jpg',
 	thumbnail: fs.readFileSync('./src/media/naze.png'),
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','application/vnd.openxmlformats-officedocument.presentationml.presentation','application/vnd.openxmlformats-officedocument.wordprocessingml.document','application/pdf'],
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/DPUC3uuqYZI9FNLdgtMp4n?mode=gi_t',
-	ch: '120363250409960161@newsletter',
+	yt: 'https://youtube.com',
+	gh: 'https://github.com',
+	gc: 'https://chat.whatsapp.com/DTwtueLVvUr7xCRSazK11b',
+	ch: '12202727@newsletter',
 }
 
 global.limit = {
-	free: 20,
+	free: 25,
 	premium: 999,
 	vip: 900
 }
 
 global.money = {
-	free: 10000,
-	premium: 1000000,
-	vip: 10000000
+	free: 100000,
+	premium: 102782000000,
+	vip: 99999999
 }
 
 global.mess = {
-	key: "Apikey limit! Silahkan Upgrade: https://naze.biz.id",
+	key: "Apikey limit! Silahkan Hubungi Owner",
 	owner: "Khusus Owner!",
 	admin: "Khusus Admin!",
 	botAdmin: "Bot harus Admin!",
@@ -77,7 +77,7 @@ global.APIs = {
 	neosantara: 'https://api.neosantara.xyz/v1',
 }
 global.APIKeys = {
-	'https://api.naze.biz.id': 'YOUR_API_KEY',
+	'https://api.naze.biz.id': 'nz-d4b58d63e4',
 	'https://api.neosantara.xyz/v1': 'API_KEY_NEOSANTARA_AI',
 }
 
@@ -90,7 +90,7 @@ global.jadwalSholat = {
 	Isya: '19:00'
 }
 
-global.badWords = ['dongo', 'konsol'] // input kata-kata toxic yg lain. ex: ['dongo','dongonya']
+global.badWords = ['anjing', 'kontol'] // input kata-kata toxic yg lain. ex: ['dongo','dongonya']
 global.chatLength = 1000
 
 fs.watchFile(__filename, async () => {
